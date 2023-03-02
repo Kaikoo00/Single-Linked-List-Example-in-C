@@ -7,6 +7,7 @@ typedef struct Node {
 }node;
 
 node *head, *tail,*newnode;
+int data_count;
 
 void CreateLinkedList(int value){
 	newnode=malloc(sizeof(node));

@@ -49,7 +49,6 @@ void delete_element(int pos){
     else{
         node *curr = head;
         node *prev;
-        node *next;
         for(int i=0; i<pos;i++){
             prev = curr;
             curr = curr->next;
